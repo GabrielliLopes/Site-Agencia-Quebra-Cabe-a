@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Quebra-Cabeça - Agência de Publicidade criativa e inovadora. Transformamos ideias em soluções criativas que conectam marcas ao seu público.">
+    <meta name="keywords" content="publicidade, marketing, branding, design, agência criativa">
+    <title>Quebra-Cabeça | Agência de Publicidade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- HEADER & NAVIGATION -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <div class="logo">QUEBRA-CABEÇA</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre Nós</a></li>
+                <li><a href="#services" class="nav-link">Serviços</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Montamos Soluções Criativas para Sua Marca</h1>
+                <p>Somos a Quebra-Cabeça, uma agência de publicidade que transforma ideias em campanhas memoráveis. Cada
+                    peça do seu projeto é cuidadosamente encaixada para criar resultados extraordinários.</p>
+                <a href="#contact" class="cta-button">Vamos Conversar</a>
+            </div>
+            <div class="puzzle-wrapper">
+                <div class="puzzle-container">
+                    <div class="puzzle-grid" id="puzzleGrid">
+                    </div>
+                </div>
+                <button id="shuffleBtn" class="shuffle-btn"><i class="fas fa-random"></i> Embaralhar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre Nós</h2>
+                <p>Conheça a agência que une criatividade, estratégia e resultados</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Cada Peça Importa</h3>
+                    <p>Na Quebra-Cabeça, acreditamos que cada projeto é único, como um quebra-cabeça complexo que
+                        precisa de atenção aos detalhes. Nossa equipe multidisciplinar trabalha em conjunto para
+                        encaixar perfeitamente cada elemento da sua estratégia de comunicação.</p>
+                    <p>Com anos de experiência no mercado, desenvolvemos campanhas que não apenas chamam atenção, mas
+                        criam conexões genuínas entre marcas e pessoas.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Anos de Experiência</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Clientes Satisfeitos</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Projetos Realizados</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p>Soluções completas para elevar sua marca ao próximo nível</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-comments"></i></div>
+                    <h3>Gestão de Mídias Sociais</h3>
+                    <p>Criação de conteúdo e gestão estratégica para aumentar a presença digital da sua marca.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-bullseye"></i></div>
+                    <h3>Campanhas de Tráfego Pago</h3>
+                    <p>Gestão de anúncios no Google e redes sociais para gerar conversões reais.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-photo-video"></i></div>
+                    <h3>Criação de Conteúdo</h3>
+                    <p>Produção de roteiros, vídeos e fotos profissionais para engajamento nas redes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-gem"></i></div>
+                    <h3>Branding e Identidade Visual</h3>
+                    <p>Criação de marcas que se destacam e são lembradas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-chess-king"></i></div>
+                    <h3>Consultoria Estratégica</h3>
+                    <p>Assessoria completa para desenvolvimento de estratégias digitais personalizadas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-tv"></i></div>
+                    <h3>Mídia Offline</h3>
+                    <p>Planejamento e execução de campanhas publicitárias em mídias como rádio, TV e outdoor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfólio</h2>
+                <p>Conheça alguns dos projetos que nos orgulhamos de ter realizado</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="digital">Digital</button>
+                <button class="filter-btn" data-filter="video">Vídeo</button>
+            </div>
+            <div class="portfolio-grid" id="portfolioGrid">
+                <a href="https://drive.google.com/drive/folders/13rBLI0DYA4u6fD08vXltmDGNyJyFt75Q?usp=sharing"
+                    target="_blank" class="portfolio-item" data-category="branding">
+                    <img src="https://images.unsplash.com/photo-1600607686527-6fb886090705?w=800&h=500&fit=crop"
+                        alt="Bee Happy" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3>Bee Happy</h3>
+                        <p class="portfolio-category">Branding</p>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/drive/folders/13rBLI0DYA4u6fD08vXltmDGNyJyFt75Q?usp=sharing"
+                    target="_blank" class="portfolio-item" data-category="branding">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop"
+                        alt="Red Nose" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3>Red Nose</h3>
+                        <p class="portfolio-category">Branding</p>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/drive/folders/13rBLI0DYA4u6fD08vXltmDGNyJyFt75Q?usp=sharing"
+                    target="_blank" class="portfolio-item" data-category="branding">
+                    <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&h=500&fit=crop"
+                        alt="Sanclá" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3>Sanclá</h3>
+                        <p class="portfolio-category">Branding</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p>Vamos montar juntos a solução perfeita para o seu negócio</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-details">
+                            <h3>E-mail</h3>
+                            <p>qccomunica@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div class="contact-details">
+                            <h3>Telefone</h3>
+                            <p>(16) 99641-5690</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                        <div class="contact-details">
+                            <h3>Horário de Funcionamento</h3>
+                            <p>Segunda a Sexta: 8h30 às 18h</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/qccomunica@gmail.com"
+                    method="POST">
+                    <input type="hidden" name="_subject" value="Nova mensagem do site Quebra-Cabeça">
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="_replyto" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quebra-Cabeça</h3>
+                <p>Agência de publicidade criativa que transforma ideias em soluções impactantes.</p>
+                <div class="social-links">
+                    <a href="https://wa.me/5516996415690" class="social-link" aria-label="WhatsApp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/quebracabeca.comunicacao?igsh=b3R3OTIIbGxzM2ho"
+                        class="social-link" aria-label="Instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Serviços</h3>
+                <p>Gestão de Mídias Sociais</p>
+                <p>Campanhas de Tráfego Pago</p>
+                <p>Criação de Conteúdo</p>
+                <p>Branding e Identidade Visual</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Quebra-Cabeça Agência de Publicidade. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
